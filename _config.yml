@@ -1,5 +1,4 @@
 # Site settings
-# accessed via {{ site.title }}, {{ site.email }}, and so on.
 title: Jack Toumey
 email: jack@toumey.io
 description: Welcome to my homepage!
@@ -16,18 +15,22 @@ phone: (716) 555-5555
 icon: fa-diamond # Font Awesome class for your site's icon
 
 # Social settings
-facebook_url:
-github_url:
+github_url: https://github.com/miloofcroton
 github_username: miloofcroton
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+pgp_key:
+facebook_url:
+googleplus_url:
 instagram_url:
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+linkedin_url:
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url:
 
 # Build settings
 markdown: kramdown
 theme: dimension_jekyll_theme
 plugins:
   - jekyll-feed
+
+# Formatting settings
+excerpt_separator: <!--more-->

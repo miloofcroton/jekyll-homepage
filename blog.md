@@ -4,4 +4,4 @@ image: milo-of-croton.jpg
 layout: blog
 ---
 
-{{ site.posts }}
+* [{{ post.title }}]({{ post.url }}) {{ post.excerpt }}
