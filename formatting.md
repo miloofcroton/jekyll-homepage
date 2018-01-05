@@ -1,5 +1,6 @@
 ---
-title: elements
+title: formatting
+layout: default
 ---
 
 <section>
