@@ -1,7 +1,7 @@
 # Site settings
 title: Jack Toumey
 email: jack@toumey.io
-description: Welcome to my homepage!
+description: Software Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author:
@@ -12,12 +12,14 @@ zip_code: 55555
 country: United States of America
 phone: (716) 555-5555
 
-icon: fa-diamond # Font Awesome class for your site's icon
+icon: fa-home # Font Awesome class for your site's icon
 
 # Social settings
-github_url: https://github.com/miloofcroton
 github_username: miloofcroton
-pgp_key:
+github_url: https://github.com/miloofcroton
+pgp_key: https://raw.pastebin.com/LINK-TO-PUBLIC-KEY
+business_card: assets/etc/contact.vcf
+
 facebook_url:
 googleplus_url:
 instagram_url:

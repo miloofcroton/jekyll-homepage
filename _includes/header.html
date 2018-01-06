@@ -14,13 +14,26 @@
 			</div>
 			<nav>
 				<ul>
-					{% for page in site.pages  %}
-					{% unless page.layout == 'default' %}
-					<li><a href="#{{ page.title }}">{{ page.title }}</a></li>
-					{% endunless %}{% endfor %}
+					{% assign sorted_pages = site.pages | sort:"order" %}
+
+					{% for page in sorted_pages %}
+					{% if page.layout == 'primary' %}
+  					<li><a href="#{{ page.title }}">{{ page.title }}</a></li>
+					{% endif %}
+					{% endfor %}
 				</ul>
 			</nav>
 		</header>
+
+		<ul class="icons">
+			<li><a href="#{{ site.contact.title }}" class="icon fa-edit" <span class="label"></span></a></li>
+			<li><a href="mailto:{{ site.email }}" class="icon fa-envelope" target="_blank"><span class="label">Email</span></a></li>
+			<li><a href="{{ site.github_url }}" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+			<li><a href="{{ site.pgp_key }}" class="icon fa-key" target="_blank"><span class="label">Public Key</span></a></li>
+  		<li><a href="{{ site.business_card }}" class="icon fa-address-card"><span class="label">Business Card</span></a></li>
+		</ul>
+
+
 
 	<!-- Main -->
 		<div id="main">
