@@ -1592,9 +1592,7 @@
 			opacity: 0;
 		}
 
-
-
-
+/* For Google Earth info of background */
 
 		.content__location {
 		    font-size: .875rem;
@@ -1632,6 +1630,10 @@
 
 		.content__location__country {
 		    font-weight: 300;
+		}
+
+		.content__location__region {
+				font-weight: 550;
 		}
 
 		@media (min-width: 650px) {

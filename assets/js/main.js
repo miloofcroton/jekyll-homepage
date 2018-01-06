@@ -453,8 +453,8 @@ var region = randomObj["region"]
 var country = randomObj["country"]
 
 window.onload = function() {
-	 document.getElementById("globe").href = randomObj["map"];
-	 document.getElementById("globe").title = ["View ", region, ", ", country, " in Google Maps"].join("");
+	 document.getElementById("background-info").href = randomObj["map"];
+	 document.getElementById("background-info").title = ["View ", region, ", ", country, " in Google Maps"].join("");
 	 document.getElementById("content-location-region").innerHTML=randomObj["region"];
    document.getElementById("content-location-country").innerHTML=randomObj["country"];
 }
