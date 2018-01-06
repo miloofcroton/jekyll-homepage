@@ -417,8 +417,9 @@ let revealImage
 let handleLoaded
 let stylesheetIndex
 
+randomObj = imageJSON[Math.floor(Math.random() * imageJSON.length)]
+
 handleLoaded = () => {
-	let randomObj = imageJSON[Math.floor(Math.random() * imageJSON.length)]
 
   stylesheetIndex = document.styleSheets.length - 1
   earthviewNode = document.querySelector('.js-earthview')
@@ -447,3 +448,13 @@ imageUrl = (obj) => {
 
 
 document.addEventListener('DOMContentLoaded', handleLoaded)
+
+var region = randomObj["region"]
+var country = randomObj["country"]
+
+window.onload = function() {
+	 document.getElementById("globe").href = randomObj["map"];
+	 document.getElementById("globe").title = ["View ", region, ", ", country, " in Google Maps"].join("");
+	 document.getElementById("content-location-region").innerHTML=randomObj["region"];
+   document.getElementById("content-location-country").innerHTML=randomObj["country"];
+}
