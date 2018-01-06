@@ -5,7 +5,6 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
-    dimension_jekyll_theme (1.2)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -60,7 +59,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  dimension_jekyll_theme
   jekyll (~> 3.7.0)
   jekyll-feed (~> 0.6)
   tzinfo-data

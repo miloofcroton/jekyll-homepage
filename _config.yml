@@ -30,7 +30,7 @@ twitter_url:
 
 # Build settings
 markdown: kramdown
-theme: dimension_jekyll_theme
+theme:
 plugins:
   - jekyll-feed
 

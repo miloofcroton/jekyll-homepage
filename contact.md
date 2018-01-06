@@ -23,7 +23,7 @@ layout: secondary
 </form>
 
 <ul class="icons">
-	<li><a href="mailto:{{ site.email }}" class="icon fa-envelope" target="_blank"><span class="label">Email</span></a></li>
-	<li><a href="{{ site.github_url }}" class="icon fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-	<li><a href="{{ site.pgp_key }}" class="icon fa-key" target="_blank"><span class="label">Public Key</span></a></li>
+	<li><a href="mailto:{{ site.email }}" class="icon fas fa-envelope" target="_blank"><span class="label">Email</span></a></li>
+	<li><a href="{{ site.github_url }}" class="icon fab fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+	<li><a href="{{ site.pgp_key }}" class="icon fas fa-key" target="_blank"><span class="label">Public Key</span></a></li>
 </ul>
