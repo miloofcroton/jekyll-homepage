@@ -416,12 +416,14 @@ let preloadImage
 let revealImage
 let handleLoaded
 let stylesheetIndex
+let cssRulesIndex
 
 randomObj = imageJSON[Math.floor(Math.random() * imageJSON.length)]
 
 handleLoaded = () => {
 
   stylesheetIndex = document.styleSheets.length - 1
+	cssRulesIndex = document.styleSheets[stylesheetIndex].cssRules.length - 1
   earthviewNode = document.querySelector('.js-earthview')
   if (typeof earthviewNode !== 'undefined') {
     preloadImage(imageUrl(randomObj))
@@ -437,7 +439,7 @@ preloadImage = (url) => {
 
 revealImage = (url) => {
   return function () {
-    document.styleSheets[stylesheetIndex].insertRule(`#bg::after { background-image: url(${url}); }`, 0)
+    document.styleSheets[stylesheetIndex].insertRule(`#bg::after { background-image: url(${url}); }`, cssRulesIndex)
     earthviewNode.classList.remove('is-loading')
   }
 }
