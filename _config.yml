@@ -12,7 +12,7 @@ zip_code: 55555
 country: United States of America
 phone: (716) 555-5555
 
-icon: fa-home # Font Awesome class for your site's icon
+icon: fas fa-home # Font Awesome class for your site's icon
 
 # Social settings
 github_username: miloofcroton
@@ -30,7 +30,7 @@ twitter_url:
 
 # Build settings
 markdown: kramdown
-theme: dimension_jekyll_theme
+theme:
 plugins:
   - jekyll-feed
 
