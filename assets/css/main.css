@@ -1591,3 +1591,115 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+
+/* For Google Earth info of background */
+
+		.content__location {
+		    font-size: .875rem;
+		    position: absolute;
+		    left: .714285714285714em;
+		    bottom: 2.357142857142857em;
+		    text-align: left;
+		    padding: 0;
+		}
+
+		@media (min-width: 650px) {
+		    .content__location {
+		        font-size:1rem;
+		        padding: 0 5.625em 1.25em 2.8125em;
+		        text-align: right;
+		        left: auto;
+		        right: 1.125em;
+		        bottom: .8125em
+		    }
+
+		    .no-js .content__location {
+		        padding: 0 0 0 2.8125em
+		    }
+		}
+
+		.content__location__country,.content__location__region {
+		    display: inline;
+		}
+
+		@media (min-width: 650px) {
+		    .content__location__country,.content__location__region {
+		        display:block
+		    }
+		}
+
+		.content__location__country {
+		    font-weight: 300;
+		}
+
+		.content__location__region {
+				font-weight: 550;
+		}
+
+		@media (min-width: 650px) {
+		    .content__location__country {
+		        font-size:.8125em
+		    }
+		}
+
+		.content__location__globe {
+		    display: none;
+		    position: absolute;
+		    right: 0;
+		    bottom: 0;
+		    width: 5em;
+		    height: 5em;
+		    z-index: 7;
+		}
+
+		@media (min-width: 650px) {
+		    .content__location__globe {
+		        display:block
+		    }
+		}
+
+		.no-js .content__location__globe {
+		    display: none
+		}
+
+		.content__location__globe svg {
+		    position: absolute;
+		    background-color: rgba(0,0,0,0.5);
+		    right: 0;
+		    bottom: 0;
+		    border-radius: 50%;
+		    cursor: pointer;
+		    fill: #fff;
+		    transition: .25s background-color ease;
+		}
+
+		.content__location__globe svg:hover {
+		    background-color: rgba(0,0,0,0.75)
+		}
+
+		.content__location__globe__pointer {
+		    position: absolute;
+		    width: .6875em;
+		    height: 1.1875em;
+		    top: 50%;
+		    left: 50%;
+		    margin-left: -.34375em;
+		    margin-top: -1.1875em;
+		    background-image: url("pin.png");
+		    background-size: contain;
+		    background-repeat: no-repeat;
+		    background-position: center bottom;
+		    z-index: 1;
+		    opacity: 1;
+		    transition: opacity .1s;
+		    -webkit-animation: bubble-up .2s cubic-bezier(0,.7,.73,.87);
+		    animation: bubble-up .2s cubic-bezier(0,.7,.73,.87);
+		    -webkit-transform-origin: bottom;
+		    transform-origin: bottom;
+		}
+
+		.content__location__globe__pointer--hidden {
+		    opacity: 0;
+		    -webkit-animation: none;
+		    animation: none
+		}
