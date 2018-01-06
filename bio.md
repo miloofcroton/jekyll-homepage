@@ -1,5 +1,5 @@
 ---
-title: about
+title: bio
 image: kayak.jpg
 layout: primary
 order: 1
