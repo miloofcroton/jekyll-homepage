@@ -10,6 +10,9 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 * Create Github Repo
 * Clone using SSH
+* cd into root project directory
+* gem install jekyll bundler
+  * this is done to allow Jekyll to create a project with the Minima theme
 * Jekyll new . --force
 * add theme to gemfile
 * bundle install
