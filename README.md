@@ -6,6 +6,16 @@ This is a basic homepage.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext`.
 
+# Overview of Process for Starting this Site from Scratch
+
+* Create Github Repo
+* Clone using SSH
+* Jekyll new . --force
+* add theme to gemfile
+* bundle install
+* update _config.yml
+* bundle exec jekyll serve
+
 # Things to Fix
 
 * trim down and fix layouts
