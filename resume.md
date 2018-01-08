@@ -12,15 +12,28 @@ order: 2
 
   <h4>Position: Level 2 Support Technician</h4>
     <ul>
-      <li>Handled clients' issues with installing and using our product. Spoke directly with clients via Zendesk, tested issues on a local server, and made small changes to the codebase where necessary.</li>
+      <li>Handled clients' issues with installing and using our product. Spoke directly with clients via email and calls, tested issues on a local server, and made small changes to the codebase where necessary.</li>
       <li>Identified larger bugs and spoke with a senior engineer regarding solutions.</li>
-      <li>Managed issues with customer accounts in Stripe</li>
+      <li>Handled most customer account issues</li>
     </ul>
   <h4>Position: Debugger, Ops Assistant, Dev Work</h4>
     <ul>
-      <li>Use of logging infrastucture via Graylogs, Sidekiq, LogDNA, CircleCI, Mailgun</li>
-      <li>Checking issues via Airbrake, ScoutApp</li>
+      <li>Checking general logs for webhooks related to customer issues and errors</li>
+      <li>Monitoring performance data and web exceptions</li>
       <li>Developed simple interfaces that our support team uses to quickly gather info from the aforementioned many sources</li>
     </ul>
+
+  <h4>Tools</h4>
+  <ul>
+    <li>Base language: Ruby</li>
+    <li>Server-side framework: Ruby on Rails</li>
+    <li>Databases: MySQL, Redis, MongoDB</li>
+    <li>Standard web languages: JavaScript, HTML/CSS</li>
+    <li>Version Control: Github</li>
+    <li>Logging/Monitoring: Graylogs, Sidekiq, LogDNA, CircleCI, Mailgun, Airbrake, ScoutApp</li>
+    <li>Payment handling: Stripe</li>
+    <li>Support: Zendesk</li>
+    <li>Hosting: Amazon Web Services</li>
+  </ul>
 
 </p>
