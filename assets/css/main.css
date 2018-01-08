@@ -1615,3 +1615,9 @@
 		#content-location-country {
 		  font-weight: 300;
 		}
+
+		.big-icons {
+			text-align: center;
+	    display: block;
+    	width: 100%;
+		}

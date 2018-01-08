@@ -1,9 +1,26 @@
 ---
 title: resume
-image: pic01.jpg
 layout: primary
 order: 2
 ---
-Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
+<p class="big-icons fa-5x fas fa-tasks"></p>
+
+<h3>LeadDyno, LLC</h3>
+
+<p>
+
+  <h4>Position: Level 2 Support Technician</h4>
+    <ul>
+      <li>Handled clients' issues with installing and using our product. Spoke directly with clients via Zendesk, tested issues on a local server, and made small changes to the codebase where necessary.</li>
+      <li>Identified larger bugs and spoke with a senior engineer regarding solutions.</li>
+      <li>Managed issues with customer accounts in Stripe</li>
+    </ul>
+  <h4>Position: Debugger, Ops Assistant, Dev Work</h4>
+    <ul>
+      <li>Use of logging infrastucture via Graylogs, Sidekiq, LogDNA, CircleCI, Mailgun</li>
+      <li>Checking issues via Airbrake, ScoutApp</li>
+      <li>Developed simple interfaces that our support team uses to quickly gather info from the aforementioned many sources</li>
+    </ul>
+
+</p>

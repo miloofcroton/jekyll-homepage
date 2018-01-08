@@ -1,7 +1,7 @@
 ---
 title: blog
 image: milo-of-croton.jpg
-layout: primary
+layout: secondary
 order: 4
 ---
 
