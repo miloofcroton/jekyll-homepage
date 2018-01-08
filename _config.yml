@@ -17,8 +17,8 @@ icon: fas fa-home # Font Awesome class for your site's icon
 # Social settings
 github_username: miloofcroton
 github_url: https://github.com/miloofcroton
-pgp_key: assets/etc/home/commander/public.key
-business_card: assets/etc/contact.vcf
+pgp_key: /assets/etc/public.key
+business_card: /assets/etc/contact.vcf
 
 facebook_url:
 googleplus_url:
