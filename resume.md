@@ -29,8 +29,9 @@ order: 2
     <li>Server-side framework: Ruby on Rails</li>
     <li>Databases: MySQL, Redis, MongoDB</li>
     <li>Standard web languages: JavaScript, HTML/CSS</li>
-    <li>Version Control: Github</li>
-    <li>Logging/Monitoring: Graylogs, Sidekiq, LogDNA, CircleCI, Mailgun, Airbrake, ScoutApp</li>
+    <li>Version Control: Git, Github</li>
+    <li>Jobs: Sidekiq</li>
+    <li>Logging/Monitoring: Graylogs, LogDNA, CircleCI, Mailgun, Airbrake, ScoutApp</li>
     <li>Payment handling: Stripe</li>
     <li>Support: Zendesk</li>
     <li>Hosting: Amazon Web Services</li>
