@@ -17,9 +17,9 @@
 					{% assign sorted_pages = site.pages | sort:"order" %}
 
 					{% for page in sorted_pages %}
-					{% if page.layout == 'primary' %}
-  					<li><a href="#{{ page.title }}">{{ page.title }}</a></li>
-					{% endif %}
+						{% if page.layout == 'primary' %}
+  						<li><a href="#{{ page.title }}">{{ page.title }}</a></li>
+						{% endif %}
 					{% endfor %}
 				</ul>
 			</nav>
